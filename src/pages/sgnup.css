@@ -1,0 +1,104 @@
+:root{
+   
+    color:white;
+    font-family: serif;
+}
+
+.container-sgnup{
+    position: relative;
+    top:0;
+    left: 0;
+    padding: 0;
+    width:50%;
+    height: 100%;
+    margin: 0;
+    background-color: #EFF6FC;
+}
+
+
+
+.inpstyle{
+    position: relative;
+    height:45px;
+    width:80%;
+    appearance:none;
+    background-color:transparent ;
+    border:1px solid #566173;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    left:10%;
+    
+}
+.panel{
+    background-color: #222831!important;
+    position: absolute!important;
+    height:49%!important;
+    width: 70%!important;
+    left:15%!important;
+    top:25%!important;
+    border-radius: 70px!important;
+    box-shadow: 0px 0px 83px 9px rgba(187, 194, 240, 0.772) ,
+                25px 0px 20px -20px rgba(0,0,0,0.45),
+                0px 25px 20px -20px rgba(0,0,0,0.45),
+                -25px 0px 20px -20px rgba(0,0,0,0.45)!important;
+
+                
+    
+}
+
+.texttt{
+    font-family: serif;
+    text-align: center;
+    background-color: #222831 !important ;
+    height: 70px;
+    width: 70%;
+    margin: 10px;
+    left:15%;
+    top:1%;
+    position: relative;
+    color: white;
+
+   
+}
+.community{
+    margin-top: 0;
+    position: relative;
+   
+}
+
+.btn{
+    width:81%;
+    background-color:#825FE4;
+    position: relative;
+    left: 10%;
+    height:  45px;
+    font-family: serif;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup{
+    font-size:15px;
+    text-decoration: none;
+    color:white; 
+    cursor:pointer;
+    position: relative;
+    text-align: center;
+    width:80%;
+    left: 10%;
+    margin-top: 15px;
+}
+.signup a{
+    color: white;
+    margin-top: 5PX;
+}
+
+.signIn{
+    padding: 0;
+    margin-bottom: 0;
+    position: relative;
+   
+    
+}

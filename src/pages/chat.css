@@ -1,0 +1,164 @@
+:root{
+    padding: 0;
+    margin: 0;
+    background-color: #eff6fc;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.search-box {
+    width: 22%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #eff6fc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(172, 154, 230, 0.4);
+    top: 15px;
+    position: absolute;
+    left: 9px;
+    background-color: white;
+
+  }
+  
+  #search-input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+  }
+
+  .list{
+    width: 22%;
+    height: 590px;
+    padding: 10px;
+    border: 1px solid #eff6fc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(172, 154, 230, 0.4);
+    top: 15px;
+    position: absolute;
+    left: 9px;
+    margin-top:70px ;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+  }
+
+  .chat-area{
+    width: 73%;
+    height: 660px;
+    padding: 10px;
+    border: 1px solid #eff6fc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(172, 154, 230, 0.4);
+    top: 5px;
+    position: absolute;
+    left: 25.5%;
+    margin-top:10px ;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(255, 255, 255) !important;
+
+  }
+
+  .header{
+    
+    height: 70px;
+    width:90%;
+    position: absolute;
+    margin-left: 25px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    border-bottom: 2px solid rgba(203, 203, 203, 0.749);
+
+  }
+  .profile-pic{
+    height: 80%;
+    position: relative;
+    width: 6%;
+    margin-right: 25px;
+    object-fit: contain;
+    border-radius: 50%;
+    
+    
+  }
+  .img{
+    border-radius: 50%;
+    max-width: 60px;
+    max-height: 60px;
+  }
+  .online-status{
+    font-size: smaller;
+    font-weight: lighter;
+    color:rgb(107, 104, 104);
+  }
+  .name{
+    font-size: larger;
+    margin-top: 5px;
+  }
+  .text-area{
+    align-items: center;
+  }
+  
+  .profile-pic img{
+    object-fit: fill;
+  }
+
+  .calling{
+    position: absolute;
+    right:20px;
+    cursor: pointer;
+    bottom: 10px;
+
+  }
+  .vc{
+
+    margin: 10px;
+    top:15px;
+    margin-left: 30px;
+    
+  }
+  
+  #vdc{
+    margin-top:25px;
+    
+  }
+  .input-area{
+    
+    position: absolute;
+    padding: 5px;
+    width: 95%;
+    height:40px;
+    bottom: 20px;
+    left: 45px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text{
+    background-color: #ededed;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    padding: 0;
+    border-radius: 10px;
+    left: 0;
+    border: none;
+    text-align: left;
+    
+  }
+  .mic{
+   
+    position: absolute;
+    height: 90%;
+    left: 93%;
+
+}
+
+ 
